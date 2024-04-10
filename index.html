@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title> Amin GameStore </title>
+</head>
+
+<body>
+
+    <svg class="svg-base">
+
+        <symbol id="user-tag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+            <path
+                d="M351.8 367.3v-44.1C328.5 310.7 302.4 304 274.7 304H173.3c-95.73 0-173.3 77.65-173.3 173.4C.0005 496.5 15.52 512 34.66 512h378.7c11.86 0 21.82-6.337 28.07-15.43l-61.65-61.57C361.7 416.9 351.8 392.9 351.8 367.3zM224 256c70.7 0 128-57.31 128-128S294.7 0 224 0C153.3 0 96 57.31 96 128S153.3 256 224 256zM630.6 364.8L540.3 274.8C528.3 262.8 512 256 495 256h-79.23c-17.75 0-31.99 14.25-31.99 32l.0147 79.2c0 17 6.647 33.15 18.65 45.15l90.31 90.27c12.5 12.5 32.74 12.5 45.24 0l92.49-92.5C643.1 397.6 643.1 377.3 630.6 364.8zM447.8 343.9c-13.25 0-24-10.62-24-24c0-13.25 10.75-24 24-24c13.38 0 24 10.75 24 24S461.1 343.9 447.8 343.9z" />
+        </symbol>
+
+        <symbol id="comments" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+            <path
+                d="M416 176C416 78.8 322.9 0 208 0S0 78.8 0 176c0 39.57 15.62 75.96 41.67 105.4c-16.39 32.76-39.23 57.32-39.59 57.68c-2.1 2.205-2.67 5.475-1.441 8.354C1.9 350.3 4.602 352 7.66 352c38.35 0 70.76-11.12 95.74-24.04C134.2 343.1 169.8 352 208 352C322.9 352 416 273.2 416 176zM599.6 443.7C624.8 413.9 640 376.6 640 336C640 238.8 554 160 448 160c-.3145 0-.6191 .041-.9336 .043C447.5 165.3 448 170.6 448 176c0 98.62-79.68 181.2-186.1 202.5C282.7 455.1 357.1 512 448 512c33.69 0 65.32-8.008 92.85-21.98C565.2 502 596.1 512 632.3 512c3.059 0 5.76-1.725 7.02-4.605c1.229-2.879 .6582-6.148-1.441-8.354C637.6 498.7 615.9 475.3 599.6 443.7z" />
+        </symbol>
+
+        <symbol id="envelope" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+            <path
+                d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z" />
+        </symbol>
+
+        <symbol id="whatsapp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+            <path
+                d="M224 122.8c-72.7 0-131.8 59.1-131.9 131.8 0 24.9 7 49.2 20.2 70.1l3.1 5-13.3 48.6 49.9-13.1 4.8 2.9c20.2 12 43.4 18.4 67.1 18.4h.1c72.6 0 133.3-59.1 133.3-131.8 0-35.2-15.2-68.3-40.1-93.2-25-25-58-38.7-93.2-38.7zm77.5 188.4c-3.3 9.3-19.1 17.7-26.7 18.8-12.6 1.9-22.4.9-47.5-9.9-39.7-17.2-65.7-57.2-67.7-59.8-2-2.6-16.2-21.5-16.2-41s10.2-29.1 13.9-33.1c3.6-4 7.9-5 10.6-5 2.6 0 5.3 0 7.6.1 2.4.1 5.7-.9 8.9 6.8 3.3 7.9 11.2 27.4 12.2 29.4s1.7 4.3.3 6.9c-7.6 15.2-15.7 14.6-11.6 21.6 15.3 26.3 30.6 35.4 53.9 47.1 4 2 6.3 1.7 8.6-1 2.3-2.6 9.9-11.6 12.5-15.5 2.6-4 5.3-3.3 8.9-2 3.6 1.3 23.1 10.9 27.1 12.9s6.6 3 7.6 4.6c.9 1.9.9 9.9-2.4 19.1zM400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM223.9 413.2c-26.6 0-52.7-6.7-75.8-19.3L64 416l22.5-82.2c-13.9-24-21.2-51.3-21.2-79.3C65.4 167.1 136.5 96 223.9 96c42.4 0 82.2 16.5 112.2 46.5 29.9 30 47.9 69.8 47.9 112.2 0 87.4-72.7 158.5-160.1 158.5z" />
+        </symbol>
+
+        <symbol id="telegram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+            <path
+                d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z" />
+        </symbol>
+
+        <symbol id="youtube" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+            <path
+                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
+        </symbol>
+
+    </svg>
+
+    <div class="container">
+
+        <header class="header">
+
+            <h2 class="header-text"> Wellcome To </h2>
+            <div class="header-name">
+                <h1 class="header-nameCo"> <span>Amin</span> GameStore</h1>
+                <img class="header-img" src="assets/images/logo.png" alt="logo">
+            </div>
+            <a href="#reserve" class="header-btn"> See Order</a>
+
+        </header>
+
+        <section class="story">
+
+            <div>
+                <h1 class="section-title">EVENTS AND FESTIVALS</h1>
+            </div>
+
+            <section class="image-story">
+                <img class="image img-1" src="assets/images/co1.jpg" alt="E3" loading="lazy">
+                <img class="image img-2" src="assets/images/co2.jpg" alt="riot games" loading="lazy">
+                <img class="image img-3" src="assets/images/co3.jpg" alt="gamescom" loading="lazy">
+                <img class="image img-4" src="assets/images/co4.jpg" alt="first playable" loading="lazy">
+                <img class="image img-5" src="assets/images/co5.jpg" alt="pax east" loading="lazy">
+            </section>
+
+        </section>
+
+        <section class="service">
+
+            <div>
+                <h1 class="section-title">SERVICE</h1>
+            </div>
+
+            <section class="service-section">
+                <div>
+                    <img class="image-service" src="assets/images/pc.jpg" alt="PC" loading="lazy">
+                    <h1 class="text-image">Computer</h1>
+                    <h4 class="small-text">Free</h4>
+                </div>
+
+                <div>
+                    <img class="image-service" src="assets/images/ps5.jpg" alt="PS5" loading="lazy">
+                    <h1 class="text-image">Playstation 5</h1>
+                    <h4 class="small-text">Free</h4>
+                </div>
+
+                <div>
+                    <img class="image-service" src="assets/images/ns.jpg" alt="Nintendo Switch" loading="lazy">
+                    <h1 class="text-image">Nintendo Switch</h1>
+                    <h4 class="small-text">Free</h4>
+                </div>
+
+                <div>
+                    <img class="image-service" src="assets/images/laptop.jpg" alt="laptop" loading="lazy">
+                    <h1 class="text-image">Laptop</h1>
+                    <h4 class="small-text">Free</h4>
+                </div>
+
+                <div>
+                    <img class="image-service" src="assets/images/xbox.jpg" alt="xbox" loading="lazy">
+                    <h1 class="text-image">Xbox</h1>
+                    <h4 class="small-text">Free</h4>
+                </div>
+
+                <div>
+                    <img class="image-service" src="assets/images/SDeck.jpg" alt="Steam Deck" loading="lazy">
+                    <h1 class="text-image">Steam Deck</h1>
+                    <h4 class="small-text">Free</h4>
+                </div>
+            </section>
+        </section>
+
+        <section class="reserve" id="reserve">
+
+            <div>
+                <h1 class="section-title">ORDER</h1>
+            </div>
+
+            <div class="reserve-container">
+
+                <div class="reserve-left">
+                    <h1>Gaming Easily!</h1>
+                    <h2 class="title-reserve">Branch</h2>
+                    <h3>Iran</h3>
+                    <h3>America</h3>
+                    <h3>England</h3>
+                    <p class="left-decs">We Are The Best GameStore In The World !!</p>
+                </div>
+
+                <div class="reserve-right">
+
+                    <h1 class="title-reserve">Tel :</h1>
+                    <h2 class="right-number">0965 321 4591</h2>
+                    <h1 class="title-reserve">Email :</h1>
+                    <h2 class="right-email">info@gmail.com</h2>
+                    <div class="right-img">
+
+                        <div class="reserve-img">
+                            <!-- <i class="fas fa-user-tag"></i> -->
+                            <svg>
+                                <use href="#user-tag"></use>
+                            </svg>
+                            <div class="reserve-img-text">
+                                <h3 class="reserve-img-hover"> Ticket </h3>
+                            </div>
+                        </div>
+
+                        <div class="reserve-img">
+                            <!-- <i class="fas fa-comments"></i> -->
+                            <svg>
+                                <use href="#comments"></use>
+                            </svg>
+                            <div class="reserve-img-text">
+                                <h3 class="reserve-img-hover"> Message </h3>
+                            </div>
+                        </div>
+
+                        <div class="reserve-img">
+                            <!-- <i class="fas fa-envelope"></i> -->
+                            <svg>
+                                <use href="#envelope"></use>
+                            </svg>
+                            <div class="reserve-img-text">
+                                <h3 class="reserve-img-hover"> Email </h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="gallery">
+
+            <div>
+                <h1 class="section-title">Gallery</h1>
+            </div>
+
+            <div class="gallery-container">
+
+                <div class="gallery-img g-img1">
+                    <div class="g-img-bg">
+                        <h1 class="g-img-text"> It Takes Two </h1>
+                    </div>
+                </div>
+
+                <div class="gallery-img g-img2">
+                    <div class="g-img-bg">
+                        <h1 class="g-img-text"> Watch Dogs Legion </h1>
+                    </div>
+                </div>
+
+                <div class="gallery-img g-img3">
+                    <div class="g-img-bg">
+                        <h1 class="g-img-text"> Assassin's Creed Valhalla </h1>
+                    </div>
+                </div>
+
+                <div class="gallery-img g-img4">
+                    <div class="g-img-bg">
+                        <h1 class="g-img-text"> Call Of Duty Warzone </h1>
+                    </div>
+                </div>
+
+                <div class="gallery-img g-img5">
+                    <div class="g-img-bg">
+                        <h1 class="g-img-text"> Mafia Definitive Edition </h1>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer class="footer">
+
+            <div class="footer-container">
+
+                <ul class="footer-items">
+                    <li class="footer-title">Service</li>
+                    <li class="footer-item">Answer FAQ </li>
+                    <li class="footer-item">Bugs Reports </li>
+                    <li class="footer-item">Security </li>
+                </ul>
+
+                <ul class="footer-items">
+                    <li class="footer-title">Comminucation</li>
+                    <li class="footer-item whatsapp">
+                        <svg>
+                            <use href="#whatsapp"></use>
+                        </svg>
+                        Whatsapp
+                    </li>
+                    <li class="footer-item telegram">
+                        <svg>
+                            <use href="#telegram"></use>
+                        </svg>
+                        Telegram
+                    </li>
+                    <li class="footer-item youtube">
+                        <svg>
+                            <use href="#youtube"></use>
+                        </svg>
+                        Youtube
+                    </li>
+                </ul>
+
+                <ul class="footer-items">
+                    <li class="footer-title">Game</li>
+                    <li class="footer-item">Online Game </li>
+                    <li class="footer-item">Game News </li>
+                    <li class="footer-item">Register Account </li>
+                </ul>
+
+            </div>
+
+            <h4 class="copyright"> &copy; All information is reserved by <span class="footer-brand">Amin
+                    GameStore</span></h4>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
