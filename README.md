@@ -23,8 +23,8 @@ This is my first project made with HTML and CSS.
 For styling the main part of the page, I have used the Grid module and the Flex module for a small part, which are CSS modules.
 </p>
 
-
-## 📋 Table of Contents
+<details open>
+<summary><h2> 📋 Table of Contents </h2></summary>
 
 - [Description](#✍-description)
 
@@ -50,6 +50,7 @@ For styling the main part of the page, I have used the Grid module and the Flex 
 
 - [License](#✅-license)
 
+</details>
 
 ## 👀 Demo
 
@@ -88,7 +89,9 @@ Amin-Game-Store-Landing-Page/
 You can Install this project to your PC using clone the repo to your github account or Download ZIP File.
 
 - [Download from Github](https://github.com/m-amin-b/Amin-Game-Store-Landing-Page/archive/refs/heads/main.zip)
-- `git clone https://github.com/m-amin-b/Amin-Game-Store-Landing-Page.git`
+- ```
+  git clone https://github.com/m-amin-b/Amin-Game-Store-Landing-Page.git
+  ```
 
 ## 🔧 Usage
 
