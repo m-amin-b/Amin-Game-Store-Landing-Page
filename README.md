@@ -30,6 +30,8 @@ For styling the main part of the page, I have used the Grid module and the Flex 
 
 - [Table of Contents](#📋-table-of-contents)
 
+- [Demo](#👀-demo)
+
 - [Development](#👨‍💻-development)
 
   - [What's included](#What's-included)
@@ -47,6 +49,11 @@ For styling the main part of the page, I have used the Grid module and the Flex 
 - [Author](#😎-author)
 
 - [License](#✅-license)
+
+
+## 👀 Demo
+
+[Live Preview](https://m-amin-b.github.io/amin-game-store-landing-page)
 
 ## 👨‍💻 Development
 
