@@ -30,7 +30,7 @@
 /** Start Header */
 .header {
     grid-column: span 8;
-    background-image: linear-gradient(to bottom, #4d4c4d6a, #000000bf, #000000), url("assets/images/top-header2.jpg");
+    background-image: linear-gradient(to bottom, #4d4c4d6a, #000000bf, #000000), url("../images/top-header2.jpg");
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -312,7 +312,7 @@
 }
 
 .reserve-container {
-    background-image: url(assets/images/player.jpg);
+    background-image: url(../images/player.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -565,29 +565,29 @@
 
 .g-img1 {
     grid-area: g-img1;
-    background-image: url(assets/images/ittakestwo.jpg);
+    background-image: url(../images/ittakestwo.jpg);
     background-position-y: 72%;
 }
 
 .g-img2 {
     grid-area: g-img2;
-    background-image: url(assets/images/watch-dogs.jpg);
+    background-image: url(../images/watch-dogs.jpg);
 }
 
 .g-img3 {
     grid-area: g-img3;
-    background-image: url(assets/images/asc-valhalla.jpg);
+    background-image: url(../images/asc-valhalla.jpg);
     background-position-x: 100%;
 }
 
 .g-img4 {
     grid-area: g-img4;
-    background-image: url(assets/images/cod-warzone3.jpg);
+    background-image: url(../images/cod-warzone3.jpg);
 }
 
 .g-img5 {
     grid-area: g-img5;
-    background-image: url(assets/images/order1.png);
+    background-image: url(../images/order1.png);
     background-position-y: 25%;
 }
 
