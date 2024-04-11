@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: BarlowCondensed;
-    src: local("Barlow Condensed"), url(assets/font/BarlowCondensed-Regular.ttf);
+    src: local("Barlow Condensed"), url(../font/BarlowCondensed-Regular.ttf);
 }
 
 /** Start Layout */
